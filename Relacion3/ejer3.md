@@ -64,7 +64,7 @@ $B(\Pi_{a,e})=\lceil\frac{N(\Pi_{a,e})}{Bfr(\Pi_{a,e})}\rfloor=\lfloor\frac{250}
 
 \
 Como hice en el ejercicio anterior realizamos un resumen de todos las operaciones que tenemos y luego sumaremos para ver el total:
-- Seleción $\sigma_{e=e_k}$: Lee 112 ($B(S)$) y escribe 3
+- Selección $\sigma_{e=e_k}$: Lee 112 ($B(S)$) y escribe 3
 - Proyección $\Pi_{b,e}$: Lee 3 y esccribe 3
 - Proyección $\Pi_{a,b}$: Lee 38 y esccribe 13
 - JOIN: Lee $B(\Pi_{b,e})+B(\Pi{a,b})=16$ y escribe 6
