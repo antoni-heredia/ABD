@@ -1,7 +1,7 @@
 # ¿Que es un ASL?
 Pag 37. Tema 1.
 
-En un ASL, los archivos se siguen almacenando secuencial mente pero se intenta mejorar su acceso.  En este tipo de organización, los registros están ordenados según una clave física. Solo se utilizan registros de longitud fija, haciendo perder mucho espacio. Como la zona principal esta ordenada, la inserción seria costosa, por lo tanto se inserta en la zona de desbordamiento y cuando esta es mayor a la zona ordenada, se realiza una ordenación por mezcla. Teniendo todos los registros otra vez ordenados.
+Es un archivo secuencial indexado. Para almacenar los datos cuenta con dos partes, una zona principal que esta ordenada y otra de desbordamiento (de tipo ASF) que no lo esta. Cuando insertamos un registro se inserta en la zona de desbordamiento y cuando esta alcanza un tamaño predeterminado (por ejemplo mayor que la zona ordenada), se ordena la parte desordenada y se mezclan las dos partes.  
 
 # Tipo test
 Pag 24. Tema 3.

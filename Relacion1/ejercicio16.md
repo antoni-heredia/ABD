@@ -1,0 +1,3 @@
+
+### Para los planes lógicos del ejercicio anterior y si se dispone de las siguientes estadísticas sobre los atributos A, B y C: $T(R)=1000$, $V(R,A)=75$, $V(R,B)=20$, $V(R,C)=80$, indica cuál de ellos escogería un optimizador para ejecutar la consulta. Justifica tu respuesta.
+Como dijimos en el ejercicio anterior, el optimizador elegirá primero el que tenga mayor varabialidad, por lo tanto como  $V(R,A)=75>V(R,B)=20$ elegirá el plan __3__.
