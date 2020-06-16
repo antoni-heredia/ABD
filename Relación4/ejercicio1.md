@@ -15,3 +15,6 @@ La tabla de modificaciones la podemos ver a continuación.
 | T1 | l9 | | update  | A | 100 | 150 |  
 | T1 | l10 | commit  |  |  |  |  |
 
+
+
+Lee(T4,D),Escribe(T4,D=15),Lee(T3,C),Lee(T2,B),Escribe(T3,C=30,Escribe(T2,B=1)),Lee(T1,A),Escribe(T1,A=30), Escribe(T3,D=12)

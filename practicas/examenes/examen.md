@@ -1,0 +1,3 @@
+Suponiendo que el bloqueo de un átomo por una transacción se realiza justo antes de la primera lectura de dicho átomo y que los des-bloqueos se producen justo después de la última sentencia de cada transacción, considerando que las operaciones que sólo involucran lectura se realizan en el modo M1 y las que involucran escritura en el modo M4, que el modo M4 es compatible con M1 e incompatible consigo mismo, y que el modo M1 es compatible consigo mismo, ¿en qué orden se ejecutan las transacciones según el método de bloqueo en dos fases?
+
+Lee (T2,X), Lee (T4,Y), Escribe(T1,X=30), Escribe(T2,X=20), Lee(T3,Y), Escribe(T4,Y=25)
